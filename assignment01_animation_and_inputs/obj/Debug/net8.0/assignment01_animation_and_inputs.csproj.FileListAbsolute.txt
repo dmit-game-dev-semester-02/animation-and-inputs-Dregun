@@ -24,3 +24,7 @@ C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_a
 C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\obj\Debug\net8.0\assignment01_animation_and_inputs.pdb
 C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\obj\Debug\net8.0\assignment01_animation_and_inputs.genruntimeconfig.cache
 C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\obj\Debug\net8.0\ref\assignment01_animation_and_inputs.dll
+C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\bin\Debug\net8.0\Content\cathedral.xnb
+C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\bin\Debug\net8.0\Content\howl.xnb
+C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\bin\Debug\net8.0\Content\jar.xnb
+C:\GitHub\2025-Jan-DMIT1514\animation-and-inputs-Dregun\assignment01_animation_and_inputs\bin\Debug\net8.0\Content\bat.xnb

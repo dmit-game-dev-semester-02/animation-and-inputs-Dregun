@@ -1,12 +1,11 @@
-﻿using System;
-using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace day03_animation;
+namespace assignment01_animation_and_inputs;
     
 /// <summary>
 /// Represents a cel animated texture.
 /// </summary>
-public class CelAnimationSequence
+public class CelAnimationSequenceMultiRow
 {
     // The texture containing the animation sequence...
     protected Texture2D texture;
@@ -21,17 +20,20 @@ public class CelAnimationSequence
     // Calculated count of cels in the sequence
     protected int celCount;
 
+    protected int rowToAnimate;
+
     /// <summary>
     /// Constructs a new CelAnimationSequence.
     /// </summary>        
-    public CelAnimationSequence(Texture2D texture, int celWidth, float celTime)
+    public CelAnimationSequenceMultiRow(Texture2D texture, int celWidth, int celHeight, float celTime, int rowToAnimate)
     {
         this.texture = texture;
         this.celWidth = celWidth;
         this.celTime = celTime;
-
-        celHeight = Texture.Height;
         celCount = Texture.Width / celWidth;
+
+        this.rowToAnimate = rowToAnimate;
+        this.celHeight = celHeight;
     }
 
     /// <summary>
@@ -72,5 +74,10 @@ public class CelAnimationSequence
     public int CelHeight
     {
         get { return celHeight; }
+    }
+
+    public int RowToAnimate
+    {
+        get { return rowToAnimate; }
     }
 }
